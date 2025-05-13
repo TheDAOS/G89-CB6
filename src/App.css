@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-davy-100: oklab(41% 0.01 0.013);
+  --color-davy-200: oklab(64.9% 0.035 0.024);
+  --color-davy-300: oklab(94% 0.007 0.009);
+  --color-davy-400: oklab(66.5% 0.01 0.027);
+}
+
+@theme {
+  --color-davy-100: #524842;
+  --color-davy-200: #A7867E;
+  --color-davy-300: #F2E9E4;
+  --color-davy-400: #A09181;
+}
+
+body {
+  @apply bg-davy-300;
+}
